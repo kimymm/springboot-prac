@@ -5,4 +5,11 @@
 	<groupId>com.bitacademy</groupId>
 	<artifactId>springboot-helloworld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<org.springframework-version>5.3.25</org.springframework-version>
+	</properties>
 </project>
