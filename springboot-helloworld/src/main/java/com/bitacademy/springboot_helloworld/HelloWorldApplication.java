@@ -38,7 +38,7 @@ public class HelloWorldApplication {
 //		}
 		
 		// try ~ with ~resources 구문
-		try(ConfigurableApplicationContext ac = SpringApplication.run(HelloWorldApplication.class, args){}
+		try(ConfigurableApplicationContext ac = SpringApplication.run(HelloWorldApplication.class, args)){}
 	}
 
 }
